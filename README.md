@@ -18,15 +18,15 @@ including there sources are all unmodified.
   
 
 ## Methods
-`void vesc_can_begin()` Starts the CAN-BUS interface at the correct baud rate.
-`void vesc_can_end()` Ends the CAN-BUS interface. 
+`void vesc_can_begin()` Starts the CAN-BUS interface at the correct baud rate.  
+`void vesc_can_end()` Ends the CAN-BUS interface.  
   
 ### Setters
-`void vesc_can_set_duty(uint8_t controller_id, float duty)` Set the duty from 0 - 1.0
-`void comm_can_set_current(uint8_t controller_id, float current)` Set the current in amps
-`void comm_can_set_current_brake(uint8_t controller_id, float current)` Set the brake current in amps
-`void comm_can_set_rpm(uint8_t controller_id, float rpm)` Set the target RPM 
-`void comm_can_set_pos(uint8_t controller_id, float pos)` Set the target possistion
+`void vesc_can_set_duty(uint8_t controller_id, float duty)` Set the duty from 0 - 1.0  
+`void comm_can_set_current(uint8_t controller_id, float current)` Set the current in amps  
+`void comm_can_set_current_brake(uint8_t controller_id, float current)` Set the brake current in amps  
+`void comm_can_set_rpm(uint8_t controller_id, float rpm)` Set the target RPM   
+`void comm_can_set_pos(uint8_t controller_id, float pos)` Set the target possistion  
 
 ### Getters
 `comm_can_get_values(uint8_t controller_id)` Asks the VESC for a values data type, does not reutrn the vlaues data type. 
