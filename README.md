@@ -36,7 +36,6 @@ including there sources are all unmodified.
  
 
 ## TO DO 
-[] Test
-[] Finish this document
-[] Implement getters for diffrent data types
-[] 
+[ ] Test  
+[ ] Finish this document  
+[ ] Implement getters for diffrent data types  
