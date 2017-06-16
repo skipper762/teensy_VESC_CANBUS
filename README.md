@@ -35,4 +35,8 @@ including there sources are all unmodified.
  call this in a polling or interupt routeen to process incoming data, will return an int bassed on what is returned
  
 
-
+## TO DO 
+[] Test
+[] Finish this document
+[] Implement getters for diffrent data types
+[] 
